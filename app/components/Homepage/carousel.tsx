@@ -62,14 +62,16 @@ function HeroCarousel() {
   const items = dishes.map((dish, index) => (
     <div
       key={index}
-      className="relative bg-white cursor-pointer shadow-md rounded-lg p-2 w-[121px] md:w-[244px] h-[150px] md:h-[289px] hover:h-[510px] flex flex-col justify-center items-center overflow-hidden transition-all group"
+      className="relative bg-white cursor-pointer shadow-md rounded-lg p-2 w-[121px] md:w-[244px] hover:h-[251px] h-[150px] md:h-[289px] md:hover:h-[510px] flex flex-col justify-center items-center overflow-hidden transition-all group"
     >
       {/* Hover Background */}
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300"
-        style={{
-          backgroundImage: `url('https://res.cloudinary.com/mindset/image/upload/v1737963645/span_vjgprg.png')`,
-        }}
+        className="absolute inset-0 bg-cover bg-center opacity-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300 bg-[url('https://res.cloudinary.com/mindset/image/upload/v1737967005/span_1_bj4xsg.png')] md:bg-[url('https://res.cloudinary.com/mindset/image/upload/v1737963645/span_vjgprg.png')]"
+        // style={{
+        //   md:backgroundImage: `url('https://res.cloudinary.com/mindset/image/upload/v1737963645/span_vjgprg.png')`,
+        //   backgroundImage: `url(' https://res.cloudinary.com/mindset/image/upload/v1737967005/span_1_bj4xsg.png')`,
+         
+        // }}
       ></div>
 
       {/* Dish Image */}
