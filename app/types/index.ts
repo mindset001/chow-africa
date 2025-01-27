@@ -20,3 +20,4 @@ export type IconNameTypes =
 | 'instagramIcon'
 | 'sidebarIcon'
 | 'circlesIcon'
+| 'thumbIcon'

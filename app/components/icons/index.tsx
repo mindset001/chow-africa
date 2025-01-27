@@ -12,6 +12,7 @@ import TwitterIcon from "./Twitter";
 import InstagramIcon from "./Instagram";
 import SidebarIcon from "./Side";
 import CirclesIcon from "./Circles";
+import ThumbIcon from "./Thumb";
 
 
 const Icon: FC<{ name?: IconNameTypes }> = ({ name }) => {
@@ -36,6 +37,8 @@ const Icon: FC<{ name?: IconNameTypes }> = ({ name }) => {
             return <SidebarIcon />
             case 'circlesIcon':
             return <CirclesIcon />
+            case 'thumbIcon':
+                return <ThumbIcon />
         default:
             return null;
     }
