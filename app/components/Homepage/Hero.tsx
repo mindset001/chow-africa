@@ -19,15 +19,16 @@ function Hero() {
        </div>
       </div>
       <main className="md:w-[85%] herobg bg-cover bg-center rounded-[5px] md:rounded-[14px] pt-24">
-        <section className="p-8 bg-opacity-70 text-white text-center flex flex-col justify-center items-center">
+    
+        <section className="py-8 bg-opacity-70 text-white text-center flex flex-col justify-center items-center">
             <div className='flex justify-center items-center gap-4'>
             
                 <Icon name='whiteStar'/>
                 <p className='text-[12px] md:text-[15px] font-[400]'>Join the chow africa waitlist</p>
                 <Icon name='whiteStar'/>
             </div>
-          <h1 className="md:text-[96px] text-[50px] font-[500]">
-            Find chow, <span className="text-green-500 italic font-[400] border-b-2 border-[#D87023]">Asap!</span>
+          <h1 className="md:text-[96px] text-[35px] font-[500]">
+            Find chow, <span className="text-[#009F79] italic font-[400] border-b-2 border-[#D87023] transform skew-y-6">Asap!</span>
           </h1>
           <p className="hidden md:block mt-4 text-[14px] md:text-[20px] font-[400] ">
             The patient dog eats leftovers. Be the first to know when we <br className=''/> launch. Join our Waitlist 😎 <span className='block md:hidden'> launch. Join our Waitlist </span>
