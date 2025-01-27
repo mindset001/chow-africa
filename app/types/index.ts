@@ -17,3 +17,6 @@ export type IconNameTypes =
 | 'whiteStar'
 | 'menu'
 | 'twitterIcon'
+| 'instagramIcon'
+| 'sidebarIcon'
+| 'circlesIcon'

@@ -5,8 +5,8 @@ import Image from 'next/image'
 
 function Interaction() {
   return (
-<main className='bg-[#FFF8F2] p-6 rounded-md'>
-  <div className='flex'>
+<main className='bg-[#FFF8F2] md:p-6 rounded-md w-full'>
+  <div className='w-full flex md:flex-row flex-col'>
     <Image
       src={Left}
       alt='lt'

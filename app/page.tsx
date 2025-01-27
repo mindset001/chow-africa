@@ -10,10 +10,10 @@ const Home: React.FC = () => {
   return (
 
 
-    <div className='w-full bg-white py-8 gap-20 flex flex-col font-[sofia-sans]'>
+    <div className='w-full bg-white py-8 gap-20 flex flex-col font-[sofia-sans] px-4'>
       <Hero />
       <WaitlistBanner />
-      <div className='ml-28 mr-10 flex flex-col gap-8'>
+      <div className='md:ml-28 md:mr-10 flex flex-col gap-8'>
         <Interaction />
         <SignupBanner />
       </div>

@@ -9,6 +9,9 @@ import BlackStar from "./BlackStar";
 import WhiteStar from "./WhiteStar";
 import MenuIcon from "./Menu";
 import TwitterIcon from "./Twitter";
+import InstagramIcon from "./Instagram";
+import SidebarIcon from "./Side";
+import CirclesIcon from "./Circles";
 
 
 const Icon: FC<{ name?: IconNameTypes }> = ({ name }) => {
@@ -23,10 +26,16 @@ const Icon: FC<{ name?: IconNameTypes }> = ({ name }) => {
             return <BlackStar />
         case 'whiteStar':
             return <WhiteStar />
-            case 'menu':
-                return <MenuIcon/>
-                case 'twitterIcon':
-                    return <TwitterIcon/>
+        case 'menu':
+            return <MenuIcon />
+        case 'twitterIcon':
+            return <TwitterIcon />
+        case 'instagramIcon':
+            return <InstagramIcon />
+        case 'sidebarIcon':
+            return <SidebarIcon />
+            case 'circlesIcon':
+            return <CirclesIcon />
         default:
             return null;
     }
