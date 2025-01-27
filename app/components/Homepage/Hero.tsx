@@ -23,22 +23,26 @@ function Hero() {
             <div className='flex justify-center items-center gap-4'>
             
                 <Icon name='whiteStar'/>
-                <p className='text-[15px] font-[400]'>Join the chow africa waitlist</p>
+                <p className='text-[12px] md:text-[15px] font-[400]'>Join the chow africa waitlist</p>
                 <Icon name='whiteStar'/>
             </div>
           <h1 className="md:text-[96px] text-[50px] font-[500]">
             Find chow, <span className="text-green-500 italic font-[400] border-b-2 border-[#D87023]">Asap!</span>
           </h1>
-          <p className="mt-4 text-[14px] md:text-[20px] font-[400]">
-            The patient dog eats leftovers. Be the first to know when we <br className='hidden md:block'/> launch. Join our Waitlist <span className='hidden md:block'>😎</span>
+          <p className="hidden md:block mt-4 text-[14px] md:text-[20px] font-[400] ">
+            The patient dog eats leftovers. Be the first to know when we <br className=''/> launch. Join our Waitlist 😎 <span className='block md:hidden'> launch. Join our Waitlist </span>
           </p>
-          <div className="mt-6 flex flex-col md:flex-row justify-center items-center gap-4">
+
+          <p className="md:hidden mt-4 text-[12px] md:text-[20px] font-[400] ">
+            The patient dog eats leftovers. Be the first to know when we launch. Join our Waitlist 
+          </p>
+          <div className="mt-6 flex flex-col md:flex-row justify-center items-center gap-4 px-4" >
             <input
               type="email"
               placeholder="Enter your email"
-              className="p-3 rounded-[12px] w-80 text-black focus:outline-none"
+              className="p-3 rounded-[12px] md:w-80 w-64 text-black focus:outline-none"
             />
-            <button className="p-3 bg-[#009F79] rounded-[56px] border-2 border-white text-white hover:bg-green-600 w-[200px]">
+            <button className="p-3 bg-[#009F79] rounded-[56px] border-2 border-white text-white hover:bg-green-600 md:w-[200px]">
               JOIN WAITLIST
             </button>
           </div>
